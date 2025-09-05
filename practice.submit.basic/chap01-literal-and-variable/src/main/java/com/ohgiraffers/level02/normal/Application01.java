@@ -8,8 +8,9 @@ public class Application01 {
          * -- 출력 예시 --
          * 문자 a의 unicode : 97
          * */
-        char ch = 'a';
-        int charNumber = ch;
-        System.out.println("문자 a의 unicode : " + charNumber);
+        char charNumber = 'a';
+
+        System.out.println("문자 a의 unicode : " + (int)
+                charNumber);
     }
 }
