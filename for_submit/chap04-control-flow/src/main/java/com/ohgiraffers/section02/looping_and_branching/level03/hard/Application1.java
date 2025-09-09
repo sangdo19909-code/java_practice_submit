@@ -8,7 +8,7 @@ public class Application1 {
         System.out.println("소수 판별 숫자 입력해주세요.");
         int num = sc.nextInt();
 
-        for (int i = 2; i < Math.sqrt(num); i++) {
+        for (int i = 2; i <= Math.sqrt(num); i++) {
             if (num % i == 0) {
                 System.out.println("소수가 아닙니다.");
                 return;
