@@ -21,6 +21,9 @@ public class Application1 {
         int[] a = new int[num];
         for (int i = 0; i < (a.length / 2); i++) {
             a[i] = + 1;
+            for (int i = 0; i < a.length / 2; i--) {
+
+            }
 
         }
 
