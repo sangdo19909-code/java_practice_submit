@@ -18,12 +18,11 @@ public class Application2 {
 
     정렬 기준이 계속 사용 되는 경우는 별도의 클래스를 만들어서 재사용할 수 있지만
     * 한 번만 사용하는 경우 더 간편하게 익명 클래스(Anoymous Class)를 활용할 수도 있따.*/
-    bookList.sort(new Comparator<BookDTO>() {
+    /*bookList.sort(new Comparator<BookDTO>() {
         @Override 신규*
         public int compare(BookDTO 01, BookDTO 02) {
             /* 가격 내림차순 정렬 */
-        return 02.getClass() - 01.getClass();
-    }
-}
+
+
 
 

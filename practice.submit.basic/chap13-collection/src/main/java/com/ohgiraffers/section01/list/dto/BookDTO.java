@@ -1,6 +1,6 @@
 package com.ohgiraffers.section01.list.dto;
 
-public class BookDTO implements Comparable<BookDTO>{
+/*public class BookDTO implements Comparable<BookDTO>{
     private int number;
     private Stirng title;
     private Sting author;
