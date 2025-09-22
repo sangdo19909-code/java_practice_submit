@@ -1,0 +1,2 @@
+rootProject.name = 'chap19-JUNIT'
+include 'src:test:chap17-unit'
